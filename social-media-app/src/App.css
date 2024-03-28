@@ -1,0 +1,62 @@
+
+.container {
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto; /* Centers the container */
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #1c1e21;
+  margin: 0;
+  padding: 0;
+}
+
+.post {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post p {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #4267b2;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #365899;
+}
+
+input[type="text"], textarea {
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: calc(100% - 22px); /* Adjust input and textarea width considering padding and border */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  resize: vertical;
+}
+
+h4 {
+  margin-bottom: 10px;
+}

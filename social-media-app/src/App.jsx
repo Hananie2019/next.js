@@ -1,4 +1,4 @@
-cd Desktop\social-media-app
+
 import React, { useState } from 'react';
 import CreatePostForm from './components/CreatePostForm';
 import Feed from './components/Feed';
